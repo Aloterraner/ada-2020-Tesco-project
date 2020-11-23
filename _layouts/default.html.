@@ -41,7 +41,7 @@
       <section>
       
       <div class="hero">
-      <img class="feature-img" src="{{ 'images/tesco.jfif' | relative_url }}" />
+      <img class="feature-img" src="{{ 'tesco.jfif' | relative_url }}" />
       </div>
 
       {{ content }}
