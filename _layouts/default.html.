@@ -39,6 +39,10 @@
         {% endif %}
       </header>
       <section>
+      
+      <div class="hero">
+      <img class="feature-img" src="{{ 'images/tesco.jfif' | relative_url }}" />
+      </div>
 
       {{ content }}
 
