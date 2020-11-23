@@ -12,6 +12,11 @@
     <![endif]-->
   </head>
   <body>
+  
+   <div class="hero">
+   <img class="feature-img" src="{{ 'tesco.jpg' | relative_url }}" />
+   </div>
+  
     <div class="wrapper">
       <header>
         <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
@@ -39,10 +44,6 @@
         {% endif %}
       </header>
       <section>
-      
-      <div class="hero">
-      <img class="feature-img" src="{{ 'tesco.jfif' | relative_url }}" />
-      </div>
 
       {{ content }}
 
